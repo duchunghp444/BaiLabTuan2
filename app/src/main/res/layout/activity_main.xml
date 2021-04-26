@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ba"
+    android:layout_width="360px"
+    android:layout_height="640px"
+    android:background="@drawable/bc1"
+
+    android:backgroundTintMode="multiply"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="139dp"
+        android:layout_height="74dp"
+        android:background="#79C125"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="120dp"
+        android:layout_height="92dp"
+        android:background="@drawable/view1"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/donaltrum_1__1_"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="DONAL TRUMP"
+        android:textColor="#1C1919"
+        android:textSize="20px"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Full Stack developer,Android UI"
+        android:textColor="#0B0000"
+        android:textSize="17px"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Donal Trump is closely associated with \n the sport of gofl,As a real estate \n developer,Trump began acquiring ang \n constructing golf courses in 1999"
+        android:textAlignment="center"
+        android:textColor="#131111"
+        android:textSize="14px"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="New York,USA"
+        android:textColor="#100F0F"
+        android:textSize="17px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="20dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="9.8"
+        android:textColor="#191717"
+        android:textSize="28px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="20dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="178"
+        android:textColor="#191717"
+        android:textSize="28px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="23dp"
+        android:layout_height="13dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="rating"
+        android:textSize="17px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="35dp"
+        android:layout_height="12dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="projects"
+        android:textAlignment="center"
+        android:textSize="17px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/v2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/v2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/v2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="HIRE ME"
+        android:textAlignment="center"
+        android:textColor="#10F641"
+        android:textSize="17px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="PORTFOLIO"
+        android:textAlignment="center"
+        android:textColor="#D823BA"
+        android:textSize="17px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
